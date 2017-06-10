@@ -1,5 +1,5 @@
 # mandrake.ai - Open Source Chatbot Platform - NLP Engine
-[![Build Status](https://travis-ci.org/yantrashala/mandrake-nlp.svg?branch=master)](https://travis-ci.org/yantrashala/mandrake-nlp)
+[![Build Status](https://travis-ci.org/yantrashala/mandrake-nlp.svg?branch=master)](https://travis-ci.org/yantrashala/mandrake-nlp) [![Gitter](https://img.shields.io/gitter/room/yantrashala/nw.js.svg)](https://gitter.im/yantrashala/chat)
 
 ## Setup
 

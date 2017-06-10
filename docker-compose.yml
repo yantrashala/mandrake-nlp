@@ -4,6 +4,7 @@ services:
   mandrake-nlp:
     user: root
     build: .
+    image: yantrashala/mandrake-nlp
     restart: always
     container_name: mandrake-nlp
     ports:
