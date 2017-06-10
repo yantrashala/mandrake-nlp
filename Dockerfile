@@ -33,4 +33,3 @@ RUN python setup.py install
 
 ADD ./gen-docs.sh /app/gen-docs.sh
 RUN chmod 0755 /app/gen-docs.sh
-RUN sh gen-docs.sh
