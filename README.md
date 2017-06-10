@@ -1,5 +1,5 @@
 # mandrake.ai - Open Source Chatbot Platform - NLP Engine
-
+[![Build Status](https://travis-ci.org/yantrashala/mandrake-nlp.svg?branch=master)](https://travis-ci.org/yantrashala/mandrake-nlp)
 
 ## Setup
 
@@ -27,6 +27,6 @@ docker-compose up -d
 curl -X "POST" "http://localhost:5000/parse" \
      -H "Content-Type: text/plain; charset=utf-8" \
      -d $'{
-  "q": "show me a mexican place in the centre"
+  "q": "hello"
 }'
 ```
