@@ -21,3 +21,4 @@ model_*
 data/db/*
 data/models/*
 test/models/*
+docs/*

@@ -30,3 +30,11 @@ curl -X "POST" "http://localhost:5000/parse" \
   "q": "hello"
 }'
 ```
+
+#### Generate Documentation
+```
+docker-compose run mandrake-nlp sh gen-docs.sh
+```
+
+## Contributing to Yantrashala/mandrake.ai
+[Contributing & Code of Conduct](CONTRIBUTING.md)

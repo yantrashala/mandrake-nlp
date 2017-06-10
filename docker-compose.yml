@@ -8,11 +8,12 @@ services:
     restart: always
     container_name: mandrake-nlp
     ports:
-      - "5000:8000"
+      - "5000:5000"
     volumes:
       - ./test/config/config-mandrake-test.json:/app/config.json:rw
       - ./test/train_data/mandrake-test.json:/app/data/mandrake/mandrake-demo.json:ro
       - ./test/models:/app/models
+      - ./docs:/app/docs/_build/html:rw
     environment:
       - SERVICE_NAME=mandrake-nlp
     command: python -m rasa_nlu.server -c /app/config.json
