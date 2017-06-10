@@ -30,3 +30,6 @@ curl -X "POST" "http://localhost:5000/parse" \
   "q": "hello"
 }'
 ```
+
+## Contributing to Yantrashala/mandrake.ai
+[Contributing & Code of Conduct](CONTRIBUTING.md)
