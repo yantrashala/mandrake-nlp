@@ -30,3 +30,7 @@ RUN python -m spacy download en
 RUN python -m rasa_nlu.download -p mitie
 RUN pip install -U scikit-learn
 RUN python setup.py install
+
+ADD ./gen-docs.sh /app/gen-docs.sh
+RUN chmod 0755 /app/gen-docs.sh
+RUN sh gen-docs.sh
